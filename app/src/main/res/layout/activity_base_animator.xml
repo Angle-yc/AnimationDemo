@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_base_animator"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.angle.hshb.animationdemo.BaseAnimatorActivity">
+
+    <Button
+        android:id="@+id/btn_alpha"
+        style="@style/btn_base_animator_style"
+        android:text="@string/baseanimator_btn_alpha" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:id="@+id/btn_translationX"
+            style="@style/btn_base_animator_style"
+            android:text="@string/baseanimator_btn_translationX" />
+        <Button
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:id="@+id/btn_translationY"
+            style="@style/btn_base_animator_style"
+            android:text="@string/baseanimator_btn_translationY" />
+        <Button
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:id="@+id/btn_translationXY"
+            style="@style/btn_base_animator_style"
+            android:text="@string/baseanimator_btn_translationXY" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:id="@+id/btn_rotateX"
+            style="@style/btn_base_animator_style"
+            android:text="@string/baseanimator_btn_rotateX"
+            />
+
+        <Button
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:id="@+id/btn_rotateY"
+            style="@style/btn_base_animator_style"
+            android:text="@string/baseanimator_btn_rotateY" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_scale"
+        style="@style/btn_base_animator_style"
+        android:text="@string/baseanimator_btn_scale" />
+
+    <ImageView
+        android:id="@+id/img_test"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:scaleType="fitXY"
+        android:src="@mipmap/mv" />
+
+</LinearLayout>

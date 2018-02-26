@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">AnimationDemo</string>
+
+    <string name="main_btn_base_animitor">基础动画</string>
+    <string name="baseanimator_btn_rotateX">X旋转动画</string>
+    <string name="baseanimator_btn_rotateY">Y旋转动画</string>
+    <string name="baseanimator_btn_translationX">X平移动画</string>
+    <string name="baseanimator_btn_translationY">Y平移动画</string>
+    <string name="baseanimator_btn_translationXY">斜角平移动画</string>
+    <string name="baseanimator_btn_alpha">渐变动画</string>
+    <string name="baseanimator_btn_scale">缩放动画</string>
+
+
+</resources>
